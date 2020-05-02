@@ -1,0 +1,9 @@
+Do not run it from top, run it from the current window
+
+getDisplayWindow().LMSSetValue("cmi.scaled_passing_score", 0.8);
+getDisplayWindow().LMSSetValue("cmi.score.scaled", 0.8);
+getDisplayWindow().LMSSetValue("cmi.completion_status", "completed");
+getDisplayWindow().LMSSetValue("cmi.core.lesson_status", "completed")
+getDisplayWindow().LMSSetValue("cmi.success_status", "passed");
+getDisplayWindow().LMSSetValue("cmi.score.raw", 100);
+getDisplayWindow().LMSSetValue("adl.nav.request", "continue");
